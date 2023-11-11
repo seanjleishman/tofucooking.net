@@ -41,6 +41,16 @@ main {
     color: #33cc33;
 }
 
+.front-page-category a {
+    text-decoration: none; /* removes underline */
+    color: inherit; 
+    cursor: pointer; 
+}
+
+.front-page-category a:hover {
+    color: #555; 
+}
+
 /* footer */
 footer {
     text-align: center;
