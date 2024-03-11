@@ -1,11 +1,10 @@
-/* Reset some default styles for consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling for the body */
+/* body style */
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #f5f5f5;
@@ -13,7 +12,7 @@ body {
     padding: 0;
 }
 
-/* Style the header */
+/* header style*/
 header {
     background-color: #f07a25;
     color: #fff;
@@ -21,16 +20,18 @@ header {
     padding: 20px;
 }
 
-/* Style the main content area */
+/* Style main  */
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/*------------------------------------------ Front Page --------------------------------------*/
+
 /* Style each recipe category section */
 .front-page-category {
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #ddd;
@@ -42,7 +43,7 @@ main {
 }
 
 .front-page-category a {
-    text-decoration: none; /* removes underline */
+    text-decoration: none; /* removes hyperlink underline */
     color: inherit; 
     cursor: pointer; 
 }
@@ -51,7 +52,25 @@ main {
     color: #555; 
 }
 
-/* footer */
+/*------------------------------------------ Recipe Page --------------------------------------*/
+
+.recipe-page{
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 5px solid #f07a25;
+    border-radius: 5px;
+    text-align: center;
+}
+.recipe-page p {
+    margin-bottom: 10px; /* Add margin at the bottom of each paragraph */
+}
+
+.recipe-page h2 {
+        text-decoration: underline;
+        font-weight: bold;  
+}
+/*------------------------------------------ Footer --------------------------------------*/
 footer {
     text-align: center;
     padding: 10px;
